@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Login',
 };
 
-import "./login.css";
+// import "./login.css";
 
 export default function LoginPage() {
   return (
