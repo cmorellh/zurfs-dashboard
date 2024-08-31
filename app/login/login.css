@@ -3,3 +3,21 @@
     align-items: center;
     justify-content: center;
 }
+
+@media (min-width: 640px)
+{
+    .main {
+
+    }
+
+}
+
+
+// md	768px	
+
+@media (min-width: 768px)
+{
+    .main {
+
+    }
+}
