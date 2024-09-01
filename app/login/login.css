@@ -25,5 +25,8 @@
 
 
 .main_div_flex {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto; 
 
 }
