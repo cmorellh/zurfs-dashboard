@@ -1,0 +1,162 @@
+
+.form_main_div {
+    flex: 1 1 0%;
+    border-radius: 0.5rem /* 8px */;
+    --tw-bg-opacity: 1;
+    background-color: rgb(249 250 251 / var(--tw-bg-opacity)) /* #f9fafb */;
+    padding-left: 1.5rem /* 24px */;
+    padding-right: 1.5rem /* 24px */;
+    padding-bottom: 1rem /* 16px */;
+    padding-top: 2rem /* 32px */;
+}
+
+.form_h1 {
+    margin-bottom: 0.75rem /* 12px */;
+    font-size: 1.5rem /* 24px */;
+    line-height: 2rem /* 32px */;
+}
+
+.labels_div {
+    width: 100%;
+}
+
+.email_label {
+    margin-bottom: 0.75rem /* 12px */;
+    margin-top: 1.25rem /* 20px */;
+    display: block;
+    font-size: 0.75rem /* 12px */;
+    line-height: 1rem /* 16px */;
+    font-weight: 500;
+    --tw-text-opacity: 1;
+    color: rgb(17 24 39 / var(--tw-text-opacity)) /* #111827 */;
+}
+
+.input_divs {
+    position:relative;
+}
+
+.email_input {
+    display: block;
+    width: 100%;
+    border-radius: 0.375rem /* 6px */;
+    border-width: 1px;
+    --tw-border-opacity: 1;
+    border-color: rgb(229 231 235 / var(--tw-border-opacity)) /* #e5e7eb */;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 2.5rem /* 40px */;
+    font-size: 0.875rem /* 14px */;
+    line-height: 1.25rem /* 20px */;
+    outline-width: 2px;
+}
+
+.email_input::placeholder {
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity)) /* #6b7280 */;
+}
+
+.atsymbolicon {
+    pointer-events: none;
+    position: absolute;
+    left: 0.75rem /* 12px */;
+    top: 50%;
+    height: 18px;
+    width: 18px;
+    --tw-translate-y: -50%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity)) /* #6b7280 */;
+}
+
+.atsymbolicon:focus {
+    --tw-text-opacity: 1;
+    color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.password_div {
+    margin-top: 1rem /* 16px */;
+}
+
+.password_label {
+    margin-bottom: 0.75rem /* 12px */;
+    margin-top: 1.25rem /* 20px */;
+    display: block;
+    font-size: 0.75rem /* 12px */;
+    line-height: 1rem /* 16px */;
+    font-weight: 500;
+    --tw-text-opacity: 1;
+    color: rgb(17 24 39 / var(--tw-text-opacity)) /* #111827 */;
+}
+
+/*Same as email input*/
+.password_input {
+    display: block;
+    width: 100%;
+    border-radius: 0.375rem /* 6px */;
+    --tw-border-opacity: 1;
+    border-color: rgb(229 231 235 / var(--tw-border-opacity)) /* #e5e7eb */;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 2.5rem /* 40px */;
+    font-size: 0.875rem /* 14px */;
+    line-height: 1.25rem /* 20px */;
+    outline-width: 2px;
+
+}
+
+.password_input::placeholder {
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity)) /* #6b7280 */;
+}
+
+/* Same as atsymbol icon*/
+.keyicon {
+    pointer-events: none;
+    position: absolute;
+    left: 0.75rem /* 12px */;
+    top: 50%;
+    height: 18px;
+    width: 18px;
+    --tw-translate-y: -50%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity)) /* #6b7280 */;
+}
+
+.keyicon:focus {
+    --tw-text-opacity: 1;
+    color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.button {
+    margin-top: 1rem /* 16px */;
+    width: 100%;
+}
+
+.login_arrow {
+    margin-left: auto;
+    height: 1.25rem /* 20px */;
+    width: 1.25rem /* 20px */;
+    --tw-text-opacity: 1;
+    color: rgb(249 250 251 / var(--tw-text-opacity)) /* #f9fafb */;
+}
+
+.error_msg_div {
+    display: flex;
+    height: 2rem;
+    align-items: flex-end;
+}
+
+.exclamation_icon {
+    height: 1.25rem /* 20px */;
+    width: 1.25rem /* 20px */;
+    --tw-text-opacity: 1;
+    color: rgb(239 68 68 / var(--tw-text-opacity)) /* #ef4444 */;
+}
+
+.exclamation_p {
+    font-size: 0.875rem /* 14px */;
+    line-height: 1.25rem /* 20px */;
+    --tw-text-opacity: 1;
+    color: rgb(239 68 68 / var(--tw-text-opacity)) /* #ef4444 */;
+}
