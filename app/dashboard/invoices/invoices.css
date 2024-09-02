@@ -1,0 +1,32 @@
+.main_invoices {
+    width: 100%;
+}
+
+.title_div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search_create_div {
+    margin-top: 1rem /* 16px */;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem /* 8px */;
+
+}
+
+@media (min-width: 768px) {
+    .search_create_div {
+        margin-top: 2rem /* 32px */;
+    }
+}
+
+.pagination_div {
+    margin-top: 1.25rem /* 20px */;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
