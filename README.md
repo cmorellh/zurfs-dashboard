@@ -1,1 +1,1 @@
-## Zurfs Next.js Dashboard
+## Zurfs Dashboard
