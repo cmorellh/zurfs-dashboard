@@ -16,3 +16,9 @@ input[type='number']::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+body {
+  background: rgb(7 7 79);
+  background: linear-gradient(330deg, rgb(31 15 30) 44%, rgb(8 100 130) 100%);
+  background-attachment: fixed; 
+}
