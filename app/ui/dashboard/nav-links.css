@@ -1,0 +1,49 @@
+.zurfslink_standard {
+    display: flex;
+    height: 48px;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 0.375rem /* 6px */;
+    --tw-bg-opacity: 1;
+    background-color: rgb(249 250 251 / var(--tw-bg-opacity)) /* #f9fafb */;
+    padding: 0.5rem;
+    font-size: 0.875rem /* 14px */;
+    line-height: 1.25rem /* 20px */;
+    font-weight: 500;
+}
+
+.zurfslink_standard:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(224 242 254 / var(--tw-bg-opacity)) /* #e0f2fe */;
+    --tw-text-opacity: 1;
+    color: rgb(47 111 235 / var(--tw-text-opacity)) /* #2f6feb */;
+}
+
+@media (min-width: 768px) {
+    .zurfslink_standard {
+        flex: none;
+        justify-content: flex-start;
+        padding: 0.5rem /* 8px */;
+        padding-left: 0.75rem /* 12px */;
+        padding-right: 0.75rem /* 12px */;
+    }
+}
+
+.zurfslink_triggered {
+    --tw-bg-opacity: 1;
+    background-color: rgb(224 242 254 / var(--tw-bg-opacity)) /* #e0f2fe */;
+    --tw-text-opacity: 1;
+    color: rgb(47 111 235 / var(--tw-text-opacity)) /* #2f6feb */;
+}
+
+.paragraph_linkname {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .paragraph_linkname {
+        display: block;
+    }
+}

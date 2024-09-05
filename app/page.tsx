@@ -6,7 +6,7 @@ import AcmeLogo from '@/app/ui/acme-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 
 // Style sheets
-import styles from '@/app/ui/home.module.css'
+// import styles from '@/app/ui/home.module.css'
 import "./page.css";
 
 export default function Page() {
@@ -19,13 +19,13 @@ export default function Page() {
 
         {/* Left Hero Div (Welcome...) */}
         <div className="left_hero_div">
-          <div className={styles.shape} /> 
+          {/* <div className={styles.shape} />  */}
           <p className={`left_paragraph`}>
-            <strong>Welcome to Acme.</strong> This is the example for the{' '}
-            <a href="https://nextjs.org/learn/" className="a_href_text">
-              Next.js Learn Course
+            <strong>Welcome to Zurfs Forecasts.</strong> Accessible Forecasts for Puerto Rico
+            , brought to you by  {' '}
+            <a href="https://carlosmorellhernandez.com" className="a_href_text">
+              ZurfsTech
             </a>
-            , brought to you by Vercel.
           </p>
           <Link href="/login" className="login_button">
             <span>Log in</span> <ArrowRightIcon className="span_arrow_icon" />
@@ -35,14 +35,14 @@ export default function Page() {
         {/* Right Hero Div (Images) */}
         <div className="right_hero_div">
           <Image
-            src="/hero-desktop.png"
+            src="https://zurfstech.s3.amazonaws.com/media/cmorellcoronitamay11th.jpg"
             width={1000}
             height={760}
             className="hero_desktop"
             alt="Screenshots of the dashboard project showing desktop version"
           />
           <Image
-            src="/hero-mobile.png"
+            src="https://zurfstech.s3.amazonaws.com/media/Zurfstech-Brainstorming.svg"
             width={560}
             height={620}
             className="hero_mobile"

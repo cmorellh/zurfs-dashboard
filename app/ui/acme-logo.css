@@ -3,7 +3,9 @@
     flex-direction: row;
     align-items: center;
     line-height: 1;
-    color:white;
+    /* color:white; */
+    gap: 1rem;
+    
 }
 
 .globealticon {
@@ -14,5 +16,5 @@
 }
 
 .logo_text {
-    font-size: 44px;
+    font-size: 32px;
 }
