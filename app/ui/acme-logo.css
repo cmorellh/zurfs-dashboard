@@ -1,9 +1,11 @@
 .logo_div {
     display: flex;
+    flex-direction: row;
     align-items: center;
     line-height: 1;
     /* color:white; */
     gap: 1rem;
+    
 }
 
 .globealticon {

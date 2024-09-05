@@ -11,8 +11,7 @@
     flex-shrink: 0;
     align-items: flex-end;
     border-radius: 0.5rem /* 8px */;
-    --tw-bg-opacity: 1;
-    background-color: rgb(248 250 252 / var(--tw-bg-opacity));
+    background-color:rgb(63, 106, 133);
     padding: 1rem /* 16px */;
 }
 
@@ -43,7 +42,7 @@
     gap: 1.5rem /* 24px */;
     border-radius: 0.5rem /* 8px */;
     --tw-bg-opacity: 1;
-    background-color: rgb(249 250 251 / var(--tw-bg-opacity)) /* #f9fafb */;
+    background-color:rgb(63, 106, 133);
     padding-left: 1.5rem /* 24px */;
     padding-right: 1.5rem /* 24px */;
     padding-top: 2.5rem /* 40px */;
@@ -81,7 +80,7 @@
 
 .a_href_text {
     --tw-text-opacity: 1;
-    color: rgb(0 112 243 / var(--tw-text-opacity)) /* #0070f3 */;
+    color:beige;
 }
 
 .login_button {
