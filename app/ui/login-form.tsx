@@ -2,6 +2,8 @@
 
 // UI
 import { ArrowRightIcon } from '@heroicons/react/20/solid';
+import { CommandLineIcon } from '@heroicons/react/20/solid';
+
 import { Button } from './button';
 
 import {
@@ -27,8 +29,9 @@ export default function LoginForm() {
     <form action={formAction} className="space-y-3">
       <div className="form_main_div">
         <h1 className={`${lusitana.className} form_h1`}>
-          Please log in to continue.
+          Please log in to continue
         </h1>
+        <CommandLineIcon className="commandline_symbol" />
         <div className="input_divs">
           <div>
             <label className="email_label" htmlFor="email">
