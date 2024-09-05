@@ -1,0 +1,120 @@
+.sidemain_div {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    /* background-color:rgb(63, 106, 133); */
+}
+
+@media (min-width: 768px) {
+    .sidemain_div {
+        padding-left: 0.5rem /* 8px */;
+        padding-right: 0.5rem /* 8px */;
+    }
+}
+
+.sidelink {
+    margin-bottom: 0.5rem /* 8px */;
+    display: flex;
+    height: 5rem /* 80px */;
+    align-items: flex-end;
+    justify-content: flex-start;
+    border-radius: 0.375rem /* 6px */;
+    background-color:rgb(63, 106, 133);
+    padding: 1rem /* 16px */;
+}
+
+@media (min-width: 768px) {
+    .sidelink {
+        height: 10rem /* 160px */;
+    }
+}
+
+.logo_div {
+    width: 8rem /* 128px */;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity)) /* #ffffff */;
+}
+
+@media (min-width: 768px) {
+    .logo_div {
+        width: 10rem /* 160px */;
+    }
+}
+
+.navlinks_div {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+    .navlinks_div {
+        flex-direction: column;
+    }
+}
+
+.div_single_box {
+    display: none;
+    height: auto;
+    flex-grow: 1;
+    border-radius: 0.375rem /* 6px */;
+    --tw-bg-opacity: 1;
+    background-color: rgb(249 250 251 / var(--tw-bg-opacity)) /* #f9fafb */;
+}
+
+@media (min-width: 768px) {
+    .div_single_box {
+        display: block;
+    }
+}
+
+.button_styles {
+    display: flex;
+    height: 48px;
+    width: 100%;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem /* 8px */;
+    border-radius: 0.375rem /* 6px */;
+    --tw-bg-opacity: 1;
+    background-color: rgb(249 250 251 / var(--tw-bg-opacity)) /* #f9fafb */;
+    padding: 0.75rem /* 12px */;
+    font-size: 0.875rem /* 14px */;
+    line-height: 1.25rem /* 20px */;
+    font-weight: 500;
+}
+
+.button_styles:hover {
+    /* Change background to bg-sky-100 */
+    --tw-bg-opacity: 1;
+    background-color: rgb(224 242 254 / var(--tw-bg-opacity)) /* #e0f2fe */;
+    /* Change color to text-blue-600 */
+    --tw-text-opacity: 1;
+    color: rgb(47 111 235 / var(--tw-text-opacity)) /* #2f6feb */;
+}
+
+@media (min-width: 768px) {
+    .button_styles {
+        flex: none;
+        justify-content: flex-start;
+        padding: 0.5rem /* 8px */;
+        padding-left: 0.75rem /* 12px */;
+        padding-right: 0.75rem /* 12px */;
+    }
+}
+
+.div_signout {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .div_signout {
+        display: block;
+    }
+}
