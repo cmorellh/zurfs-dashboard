@@ -16,14 +16,27 @@ import "./nav-links.css"
 
 // Map of links to display in the side navigation.
 // Depending on the size of the application, this would be stored in a database.
+
+// Other Routes!
+// {
+//   name: 'Invoices',
+//   href: '/dashboard/invoices',
+//   icon: UserGroupIcon,
+// },
+// {
+//   name: 'Customers',
+//   href: '/dashboard/customers',
+//   icon: UserGroupIcon,
+// },
+
 const links = [
   { name: 'Home', href: '/dashboard', icon: HomeIcon },
   {
     name: '🌊 ZurfsUp',
-    href: '/dashboard/invoices',
+    href: '/dashboard/zurfsup',
     icon: DocumentDuplicateIcon,
   },
-  { name: '༄｡° Metrics', href: '/dashboard/customers', icon: ChartBarIcon },
+  { name: '༄｡° Metrics', href: '/dashboard/metrics', icon: ChartBarIcon },
 ];
 
 export default function NavLinks() {

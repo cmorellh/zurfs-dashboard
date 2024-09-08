@@ -1,3 +1,6 @@
+
+import "./custom_skeletons.css"
+
 // Loading animation
 const shimmer =
   'before:absolute before:inset-0 before:-translate-x-full before:animate-[shimmer_2s_infinite] before:bg-gradient-to-r before:from-transparent before:via-white/60 before:to-transparent';
@@ -213,6 +216,21 @@ export function InvoicesTableSkeleton() {
           </table>
         </div>
       </div>
+    </div>
+  );
+}
+
+export function MetricsSkeleton() {
+  return (
+    <div className="metrics_main_div">
+      <div className="metrics_sub_div">
+        <div className="metrics_sub_sub_div" />
+        <div className="metrics_sub_sub_div2">
+          <div className="sub_sub_div2_child1" />
+          <div className="sub_sub_div2_child2" />
+        </div>
+      </div>
+      <div className="metrics_sub_div2" />
     </div>
   );
 }

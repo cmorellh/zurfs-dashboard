@@ -31,7 +31,7 @@ export default async function Page({
   return (
     <div className="main_invoices">
       <div className="title_div">
-        <h1 className={`${lusitana.className} text-2xl`}>Invoices</h1>
+        <h1 className={`${lusitana.className} text-2xl text-white`}>Invoices</h1>
       </div>
       <div className="search_create_div">
         <Search placeholder="Search invoices..." />

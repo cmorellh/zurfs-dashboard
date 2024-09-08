@@ -10,7 +10,7 @@ export default function AcmeLogo() {
   return (
     <div className={`${lusitana.className} logo_div`}>
       <CpuChipIcon className="globealticon h" />
-      <p className="logo_text">Zurfs Forecasts</p>
+      <p className="logo_text">Zurfs Forecasts by CMH</p>
     </div>
   );
 }
