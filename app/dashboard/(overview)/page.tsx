@@ -33,7 +33,7 @@ return (
       <h1 className={`${lusitana.className} h1_dashboard`}>
         Dashboard
       </h1>
-      <div className="card_wrapper_div">
+      {/* <div className="card_wrapper_div">
         <Suspense fallback={<CardsSkeleton />}>
             <CardWrapper />
         </Suspense>
@@ -45,7 +45,7 @@ return (
         <Suspense fallback={<LatestInvoicesSkeleton />} >
           <LatestInvoices />
         </Suspense>
-      </div>
+      </div> */}
     </main>
   );
 }
