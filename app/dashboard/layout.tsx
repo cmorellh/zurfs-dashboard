@@ -3,7 +3,12 @@ import "./layout.css";
 
 export const experimental_ppr = true;
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function Layout({ 
+    children 
+}: 
+{ children: React.ReactNode 
+    
+}) {
     return (
     <div className="main_div">
         <div className="sidenav_div">

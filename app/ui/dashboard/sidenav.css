@@ -34,14 +34,14 @@
 }
 
 .logo_div {
-    width: 8rem /* 128px */;
+    /* width: 8rem; */
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity)) /* #ffffff */;
 }
 
 @media (min-width: 768px) {
     .logo_div {
-        width: 10rem /* 160px */;
+        width: 8rem /* 160px */;
     }
 }
 
