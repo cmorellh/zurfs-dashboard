@@ -35,15 +35,15 @@ Start the development server:
 
 ```bash
     npm run dev
-    Open in your browser at http://localhost:3000.
 ```
+Open in your browser at http://localhost:3000.
 
-Deployment
+### Deployment
 
     Current: Hosted on Vercel for fast, scalable deployment.
     Future: Available on AWS Amplify, providing robust and scalable backend support.
 
-Disclaimer
+### Disclaimer
 
 This project, Zurfs Dashboard, was developed by Carlos Morell Hernandez and is a product of Zurfstech. It is provided for informational and educational purposes only. While every effort has been made to ensure the accuracy of data and forecasts, no guarantee is made for its reliability. Users are encouraged to consult official surf and weather advisories for real-time conditions and safety.
 
@@ -52,11 +52,7 @@ This project, Zurfs Dashboard, was developed by Carlos Morell Hernandez and is a
 #### Get all forecasts (work in progress)
 #### Get single forecast
 
-## Deployment
+## Deployment (example)
 
-To deploy this project run
-
-```bash
-  npm run deploy
-```
+<!-- https://zurfsdashboard-fegoj3o3w-carlos-morells-projects.vercel.app/ -->
 
